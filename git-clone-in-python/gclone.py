@@ -1,0 +1,3 @@
+import libgclone
+
+libgclone.main()
