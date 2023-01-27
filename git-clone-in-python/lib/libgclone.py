@@ -7,7 +7,6 @@ import os
 import re
 import sys
 import zlib
-from gitrepo import *
 from commands import *
 
 
