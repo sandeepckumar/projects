@@ -1,3 +1,3 @@
-import libgclone
+from lib import libgclone
 
 libgclone.main()

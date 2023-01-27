@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "git-clone-in-python"
+version = "0.1.0"
+description = "\"Clone git tool written in python\""
+authors = ["Sandeep Kumar Chenna <sandeepkchenna@gmail.com>"]
+readme = "README.md"
+packages = [{include = "git_clone_in_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
